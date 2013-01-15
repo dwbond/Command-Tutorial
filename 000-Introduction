@@ -1,0 +1,59 @@
+THE COMMAND LINE
+Or How I Wished I Had Learned Everything
+
+Chapter One: Help! Where Am I?
+    - cd and ls
+    - less
+    - [[the ones that show information about your system]]
+    - a guided tour of Linux
+Chapter Two: Commands
+    - date, cal, ping
+    - whatis, man
+    - how commands work
+    - type, which, file?
+    - wildcards
+    - the terminal
+Chapter Three: Folders and Files
+    - mkdir, cp, mv, and rm
+    - links (ln)
+Chapter Four: The Terminal
+    - wtf is this bullshit? and echo
+Chapter Four: Programs and Programming
+    - opening a program
+    - programming-- 
+    - alias
+Chapter Five: Networking
+
+Chapter Six: I/O
+
+Chapter Seven: Pipe Dreams
+
+Chapter Eight:
+
+Chapter Nine:
+
+Chapter Ten:
+
+And... this kind of stops with my knowledge of things...
+for the rest of it $man bash
+
+For most, program windows, clicking, and icons have been your entire experience with computers. (In technical terms, the is a "graphical interface".) Sure, you know of the command line, but it's a realm only for computer geniuses, the "hackers" of movies you've seen.
+
+But the command line is not something that you should fear. As with any area, there are many levels of skill, but a basic understanding is within the grasp of most computer users. With it, not only will you be able to better understand how your computer works, but it's also far more powerful than anything you can do with your mouse.
+
+The point of a graphical interface is to make computers less intimidating to first time and lay users. But that is not you! You are interested in the "behind the scenes" workings of the machines so vital to much of your life.
+
+If you are a Windows user, 
+
+(it&e link)
+
+If you are a Mac user, you're already set. Just open a terminal session (the command line interface) and type in ssh username@mason.gmu.edu
+
+(it&e link)
+
+If you're using Linux, you're all set to go. Open a terminal program of your choice.
+
+For the moment, just copy verbatim. We will explore what the meaning of what you're typing further along.
+
+A INTRODUCTION TO LINUX
+

@@ -1,0 +1,53 @@
+WHERE AM I?-- THE HOME DIRECTORY
+
+Before you, you'll see your username, an at sign, and the name of the machine or server, here "mason.gmu.edu".
+
+**note! this is not the server you're looking for-- change it to the correct one**
+
+Then there will be a colon, a twiddle, and a dollar sign, followed by a flashing cursor.
+
+Where am I? You're in your 'home directory', the section of the machine or server created escpecially for your username, here signified by the twiddle. All of your files are in the home directory. "Directory" is the more technical word we're going to use for "folder". Now how are you supposed to be able to see what's in your home directory?
+
+At the command prompt, type "ls", an abbreviation for "list". Press enter.
+
+Now you can see the files and folders in your directory. If you just see the command line come up again, it means your directory is empty. Folders are usually bolded, while files are usually normal text.
+
+GETTING AROUND
+
+Now to move around. You can't click on the listed folders to open them, so to move around, we're going to type "cd _FolderName_". "cd" is an abbreviation of "change directory".
+
+How do I now move back? There are two different ways you can move around. In the example abovce, we made use of a "relative pathname". We were in one directory, and we moved to another directory inside. Another way of moving around is with an "absolute pathname", pointing the computer to the exact location of the directory we're looking for, from the very beginning, for example "cd ~/Documents/School/Fall2012/". With relative pathways, it's slightly less straightforward.
+
+All directories have two hidden links, '.' and '..'. '.' is a reference to itself. You can see this by typing "cd .". ".." is a reference to the directory above the current one. Think of all of your directories like a huge upside-down tree. We begin at our home directory, (or even earlier, as we will get to shortly) and then proceed down through all the folders. '..' points to the directory immediately preceeding the current one. To go back one directory, we can type "cd ..". Note that we can go even further back by selecting the previous directory's link to the previous directory as well. For instance, imagining our current filesystem, after going via absolute pathway to "Fall2012", we could type "cd ../../ to get back to "Documents". 
+
+How do I know whether to use an absolute pathname or a relative pathname when navigating around? Use either, whichever one is shorter. Or, as a further shortcut, "cd" just by itself will return you to your home directory.
+
+LESS IS MORE
+
+There's an easy way to take a look at a file in the terminal without having to open it. You can use the command "less" to print out the whole thing right away. For example, if we had a file "text.html" in one of our directories, we could type "less text.html" and we'd see the entire contents of the file immediately in the terminal.
+
+We learned in the introduction about what separates Linux as an operating system from Windows or any of Apple's, earlier in this chapter made reference to a level before the home directory. Let's go there now, and take a look. Type "cd /"
+
+ROOT
+
+Take a look at where you are by typing "ls". You'll see several directories; let's take a look at a couple of some of the most interesting.
+
+    bin/
+
+    boot/
+
+    dev/
+
+    etc/
+
+    home/
+
+    lib/
+
+    media/
+
+    root/
+
+    sys/
+
+    var/

@@ -1,0 +1,35 @@
+COMMANDS
+
+In the previous chapter, we started typing in the command line without really explaining what we were doing, only looking at the effects. While this was useful to get our bearings and see where we were, let's go back and take a closer look at commands.
+
+Type some random mismash of characters into the command line. What do you see?
+
+"command not found"
+
+Just like a graphical interface, the command line accepts a number of commands, except solely through keyboard input. We learned "ls" and "cd" in the prior chapter to navigate around, but let's now begin learning some more useful commands, and start to explore how the terminal works.
+
+A quick word on entering and editing commands. The terminal will remember your previous entires, so seeing what you've previously typed is as simple as pressing the up arrow to go back in history, and the down arrow to go forward. Use the left and right arrow keys to respectively move left and right on the line. The "home" and "end" keys will move the cursor to the beginning or end of the line.
+
+It's important to note that ctrl+c, ctrl+x, and ctrl+v DO NOT mean copy, cut, and paste. Modern operating systems have changed their original meanings from the early days of computing which are still maintained here. If you want to copy, cut, or paste something in or to the command line, use the shift key as well. (ctrl+shift+c, etc) 
+
+One of the simplest commands is "date", returning the current date. Also try "cal", a neat little command that prints out a calendar of the current month, with the current day highlighted. "ping" can help you determine if you're connected to the internet; type "ping [website]" and see if packets of data are being fetched. After a few moments, ping will stop running and give a final diagnostic.
+
+"ping", as well as "cd" earlier, demonstrate the structure of commands 
+
+date
+cal
+ping
+whatis
+man
+
+    man cal
+
+    man ls
+        ls -a
+        ls -l
+
+how commands work
+
+type
+which
+wildcards
